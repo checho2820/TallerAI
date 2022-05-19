@@ -310,7 +310,6 @@ print(f'accuracy de Test de Entrenamiento: {np.array(acc_scores_test_train).mean
 print(f'accuracy de Validación: {kn.score(x_test_out, y_test_out)}')
 
 
-
 # Matriz de confusión
 print(f'Matriz de confusión Vecino mas cercano: {confusion_matrix(y_test_out, y_pred)}')
 
