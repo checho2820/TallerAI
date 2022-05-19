@@ -297,6 +297,7 @@ y_pred = kn.predict(x_test_out)
 print(f'y de prediccion: {y_pred}')
 print(f'Y real :{y_test_out}')
 
+
 print('Vecino mas cercano Validación cruzada')
 
 # Accuracy de Entrenamiento de Entrenamiento
@@ -307,6 +308,7 @@ print(f'accuracy de Test de Entrenamiento: {np.array(acc_scores_test_train).mean
 
 # Accuracy de Validación
 print(f'accuracy de Validación: {kn.score(x_test_out, y_test_out)}')
+
 
 
 # Matriz de confusión
