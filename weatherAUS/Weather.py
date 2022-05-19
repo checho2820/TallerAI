@@ -2,7 +2,7 @@
 """
 Created on Fri Apr 29 04:32:56 2022
 
-@author: Sergio Gomez
+@author: Sergio Luis Gomez Lara
 """
 import math, time, random, datetime
 import numpy as np
